@@ -15,7 +15,6 @@ class App extends Component {
             <Router>
                 <div className="App">
 
-                    /* Header */
                     <div className="App-header">
                         <h1>Movies Application</h1>
                         <div className="Nav-bar">
@@ -24,7 +23,6 @@ class App extends Component {
                         </div>
                     </div>
 
-                    /* Contenu */
                     <div className="App-content">
                         <Route exact path="/" component={MoviesList}/>
                         <Route exact path="/movies" component={MoviesList}/>
